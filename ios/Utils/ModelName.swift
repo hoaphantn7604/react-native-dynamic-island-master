@@ -99,5 +99,5 @@ public extension UIDevice {
         return mapToDevice(identifier: identifier)
     }()
 
-    static let hasDynamicIsland: Bool = modelName == "iPhone 14 Pro" || modelName == "iPhone 14 Pro Max";
+    static let hasDynamicIsland: Bool = ["iPhone 14 Pro", "iPhone 14 Pro Max"].contains(modelName);
 }
