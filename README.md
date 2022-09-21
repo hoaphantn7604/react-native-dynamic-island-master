@@ -1,5 +1,5 @@
 # react-native-dynamic-island-master
-The first version only supports taking hasDynamicIsland. we will extend other API in next version.
+The first version only supports taking hasDynamicIsland. We will extend other API in next version.
 ## API
 ```js
 import * as React from 'react';
