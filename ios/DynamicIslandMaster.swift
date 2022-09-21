@@ -1,8 +1,11 @@
 @objc(DynamicIslandMaster)
 class DynamicIslandMaster: NSObject {
-
-  @objc(multiply:withB:withResolver:withRejecter:)
-  func multiply(a: Float, b: Float, resolve:RCTPromiseResolveBlock,reject:RCTPromiseRejectBlock) -> Void {
-    resolve(a*b)
+  
+  @objc
+  func constantsToExport() -> [String: Any]! {
+    return [
+        "hasDynamicIsland": UIDevice.hasDynamicIsland,
+        "modelName": UIDevice.modelName,
+    ]
   }
 }

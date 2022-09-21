@@ -6,7 +6,9 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo managed workflow\n';
 
-const DynamicIslandMaster = NativeModules.DynamicIslandMaster  ? NativeModules.DynamicIslandMaster  : new Proxy(
+const DynamicIslandMaster = NativeModules.DynamicIslandMaster
+  ? NativeModules.DynamicIslandMaster
+  : new Proxy(
       {},
       {
         get() {
@@ -15,6 +17,6 @@ const DynamicIslandMaster = NativeModules.DynamicIslandMaster  ? NativeModules.D
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return DynamicIslandMaster.multiply(a, b);
-}
+const { hasDynamicIsland, modelName } = DynamicIslandMaster.getConstants();
+
+export { hasDynamicIsland, modelName };
