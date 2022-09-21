@@ -1,6 +1,6 @@
 {
   "name": "react-native-dynamic-island-master",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "The first version only supports taking hasDynamicIsland. We will extend other API in next version.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
