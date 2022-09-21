@@ -32,8 +32,9 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "detect",
+    "device",
+    "dynamic-island"
   ],
   "repository": "https://github.com/hoaphantn7604/react-native-dynamic-island-master",
   "author": "Hoa Phan <hoaphantn7604@gmail.com> (https://github.com/hoaphantn7604)",
