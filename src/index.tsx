@@ -17,6 +17,7 @@ const DynamicIslandMaster = NativeModules.DynamicIslandMaster
       }
     );
 
-const { hasDynamicIsland, modelName } = DynamicIslandMaster.getConstants();
+const { hasDynamicIsland, modelName, areActivitiesEnabled } =
+  DynamicIslandMaster.getConstants();
 
-export { hasDynamicIsland, modelName };
+export { hasDynamicIsland, modelName, areActivitiesEnabled };
