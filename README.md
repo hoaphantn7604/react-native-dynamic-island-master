@@ -1,7 +1,7 @@
 # react-native-dynamic-island-master
-The first version only supports taking hasDynamicIsland. We will extend other API in next version.
+This packages in developing. We will extend other API in next version.
 
-## Documents
+## Support Only IOS
 
 ### Require Xcode 14.1 or Newer
 
