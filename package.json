@@ -1,6 +1,6 @@
 {
   "name": "react-native-dynamic-island-master",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "This packages in developing. We will extend other API in next version.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
