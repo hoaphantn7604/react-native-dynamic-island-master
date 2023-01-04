@@ -28,5 +28,4 @@ export default function App() {
 ## Video tutorial:
 #### [Build Dynamic Island For React Native - Tutorial Step-by-Step](https://www.youtube.com/playlist?list=PLpMCFmfT7cNeAJaCEJbKktudFyuxufr2c)
 
-![demo](https://github.com/hoaphantn7604/react-native-dynamic-island-tutorial/blob/master/demo/react_native_dynamic_island_tutorial.jpg
-)
+[<img src="https://github.com/hoaphantn7604/react-native-dynamic-island-tutorial/blob/master/demo/react_native_dynamic_island_tutorial.jpg">](https://www.youtube.com/playlist?list=PLpMCFmfT7cNeAJaCEJbKktudFyuxufr2c)
