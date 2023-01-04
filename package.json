@@ -1,6 +1,6 @@
 {
   "name": "react-native-dynamic-island-master",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Live Activities APIs.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
