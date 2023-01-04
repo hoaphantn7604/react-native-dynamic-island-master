@@ -1,12 +1,12 @@
 # react-native-dynamic-island-master
-This packages in developing. We will extend other API in next version.
+  Live Activities APIs.
 
 ## Support Only IOS
 
 ### Require Xcode 14.1 or Newer
 
 - hasDynamicIsland: Detect device has Dynamic Island.
-- areActivitiesEnabled: A Boolean value that indicates whether your app can start a Live Activity.
+- areActivitiesEnabled: A Boolean value that indicates whether your app can start a Live Activities.
 ## Example
 ```js
 import * as React from 'react';
